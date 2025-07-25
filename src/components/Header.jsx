@@ -26,7 +26,7 @@ const Header = () => {
             {/* Profile Image */}
             <div className="mb-4">
               <Image
-                src="https://media.licdn.com/dms/image/v2/C4E03AQECeDgFYECDZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655923168695?e=1753315200&v=beta&t=YwQ_-iUudXLj4ZVptoc-Ajg_pH8809ofb90IBin1AME"
+                src="REDAR ABDULKAREEM.png"
                 alt="Profile"
                 roundedCircle
                 className="img-fluid animate__animated animate__zoomIn"
