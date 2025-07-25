@@ -24,7 +24,9 @@ const NavigationTabs = () => {
                 location.pathname === tab.path ? "light" : "outline-light"
               }
               onClick={() => navigate(tab.path)}
-              className="fw-semibold px-4"
+              className={`fw-semibold px-4 custom-tab-button ${
+                location.pathname === tab.path ? "active-tab" : ""
+              }`}
             >
               {tab.label}
             </Button>
